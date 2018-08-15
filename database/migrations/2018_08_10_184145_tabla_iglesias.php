@@ -8,7 +8,7 @@ class TablaIglesias extends Migration
 {
     /**
      * Run the migrations.
-     *
+     *dddd
      * @return void
      */
     public function up()
