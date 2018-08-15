@@ -19,7 +19,7 @@ class TablaEventos extends Migration
             $table->string('descripcion');
             $table->date('fecha');
             $table->float('costo',5,2);
-            $table->binary('imagen');
+            $table->string('imagen');//en imagen 
             $table->string('url_mapa');
             $table->string('direccion');
             $table->enum('tipo_evento',['publico','privado']);
