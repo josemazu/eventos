@@ -23,6 +23,7 @@ class TablaEventos extends Migration
             $table->string('url_mapa');
             $table->string('direccion');
             $table->enum('tipo_evento',['publico','privado']);
+            $table->string('codigo',10);
             $table->softDeletes();
             $table->timestamps();
         });
